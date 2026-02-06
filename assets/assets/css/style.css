@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+
+/* mobile */
+
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+.header {
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.menu-links {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-links a {
+    font-weight: 600;
+}
+
+
+
+.banner {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.coluna {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.banner p {
+    font-size: 1.4rem;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+.botao {
+    display: inline-block;
+    padding: 0.9rem 1.4rem;
+    font-size: 1.3rem;
+    border: 0.1rem solid #333;
+    border-radius: 1rem;
+    min-height: 48px;
+}
+
+/* CARDÁPIO */
+
+.cardapio {
+    border-top: 0.1rem dashed #999;
+    padding: 2rem 1rem;
+}
+
+.cardapio-categoria {
+    color: #ca3c3f;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+.cardapio-item {
+    margin-top: 1.5rem;
+}
+
+.cardapio-nome {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.cardapio-preco {
+    display: block;
+    color: #812123;
+}
+
+.cardapio-descricao {
+    font-size: 0.95rem;
+    color: #777;
+}
+
+
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.85rem;
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+.link-whatsapp img {
+    width: 15vw;
+    max-width: 64px;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .coluna {
+        width: 45%;
+        margin-bottom: 0;
+    }
+
+    .banner p {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+}
